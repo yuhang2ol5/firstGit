@@ -113,6 +113,7 @@ class WinFrame extends JFrame implements MouseListener {
 
 	public static void main(String[] args) {
 		WinFrame win = new WinFrame("Win");
+		System.out.println(1);
 		win.setVisible(true);
 	}
 }
